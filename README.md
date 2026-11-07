@@ -1,6 +1,6 @@
 # DMMD website
 
-Public marketing website for the product currently using the **DMMD** working visual identity.
+Public marketing website for the **DMMD** product identity.
 
 **DMMD** represents:
 
@@ -9,15 +9,44 @@ Public marketing website for the product currently using the **DMMD** working vi
 - **Manage**
 - **Deliver**
 
-The first D is mirrored horizontally in the production mark so the monogram forms a balanced four-letter system around the two central M characters.
+The first D is mirrored horizontally so the monogram forms a balanced four-letter system around the two central M characters.
 
 The public descriptor is **Fitted furniture manufacturing operations software**.
 
+## Locked visual system
+
+The DMMD visual identity is now locked.
+
+Canonical palette:
+
+- **DMMD Green** `#00C7A3`
+- **Deep Teal** `#0B2F2E`
+- **Slate** `#1F3F3E`
+- **Light Grey** `#E6EEF0`
+- **White** `#FFFFFF`
+
+The website and future product surfaces should follow the approved showcase direction:
+
+- dark Deep Teal hero surfaces;
+- bright DMMD Green operational connection paths;
+- large white lifecycle typography;
+- four core capabilities: Configure & Design, Manufacture, Manage, Deliver;
+- light proof/benefit sections beneath the dark hero;
+- coherent management-software UI treatment;
+- handheld hardware using the delivery-highlight variant.
+
+Subsystems reuse the same monogram rather than creating unrelated product logos:
+
+- **Design** highlights the mirrored first D;
+- **Manufacture** highlights the first M;
+- **Manage** highlights the second M;
+- **Deliver** highlights the final D.
+
 ## Public identity
 
-DMMD is the working visual product identity while the final commercial word-name and public domain are selected separately.
+DMMD is the locked visual product identity while the final commercial word-name and public domain are selected separately.
 
-The public website must not depend on any parent-company branding. The product should stand on its own.
+The public website must stand on its own and must not depend on parent-company branding.
 
 The public site must keep a clear distinction between:
 
@@ -28,24 +57,6 @@ The public site must keep a clear distinction between:
 
 Do not publish customer-specific data, internal network or architecture details, credentials, legacy weaknesses, or unverified SaaS claims.
 
-## Visual system
-
-The current identity uses:
-
-- a mirrored **D M M D** monogram;
-- deep navy / charcoal as the technical foundation;
-- teal and aqua for the master identity, action and operational connection;
-- white as the active capability highlight;
-- restrained orange only where a genuine semantic accent is useful;
-- the existing isometric cabinet-to-warehouse-to-delivery visual language.
-
-Subsystems reuse the same monogram rather than creating unrelated product logos:
-
-- **Design** highlights the mirrored first D;
-- **Manufacture** highlights the first M;
-- **Manage** highlights the second M;
-- **Deliver** highlights the final D.
-
 ## Handheld evidence
 
 The website may show the accepted delivery UX as a proven capability. The approved Zebra build includes the branded welcome/dashboard/loading/delivery/signature/completion experience, explicit scan feedback and durable offline/synchronisation behaviour.
@@ -54,7 +65,7 @@ Public examples must remain synthetic or sanitised. Do not expose customer names
 
 ## Website status
 
-This repository remains the current website workbench while the final commercial brand name and domain are being selected.
+This repository remains the current website workbench while the final commercial word-name and domain are selected.
 
 ## Development
 
