@@ -60,7 +60,7 @@
       <article class="deliver-step" id="deliver">
         <span class="step">04</span>
         <h2>Deliver.</h2>
-        <p>Plan runs, handle physical units and exceptions, and keep the office connected to what happened on the road.</p>
+        <p>Run a proven Zebra handheld workflow for loading, scan validation, stop execution, signatures and completion, with durable offline state and synchronisation.</p>
       </article>
     </section>
 
@@ -92,6 +92,77 @@
           <h3>Model exceptions rather than hide them.</h3>
           <p>Production, stock movement, dispatch and delivery contain real-world exceptions. The product direction is to make those states visible and auditable rather than force staff into fake jobs and workarounds.</p>
         </article>
+      </div>
+    </section>
+
+    <section class="handheld-section" id="handheld">
+      <div class="section-heading">
+        <p class="eyebrow">CabFlow Delivery</p>
+        <h2>CabFlow in the driver's hand.</h2>
+      </div>
+
+      <div class="handheld-intro">
+        <p class="handheld-lead">The driver experience now carries the same CabFlow product language into the loading bay, van and customer site: deep navy for focused operational moments, white working surfaces for route and job detail, teal for action and progress, and explicit feedback when something is wrong.</p>
+        <div class="proof-chip"><span></span> Approved customer-facing handheld UX on Zebra hardware</div>
+      </div>
+
+      <div class="screen-stage" aria-label="Illustrative CabFlow handheld screen family">
+        <article class="device device-dark">
+          <div class="device-bar"><span>CabFlow</span><span>08:42</span></div>
+          <div class="screen welcome-screen">
+            <div class="mini-isometric" aria-hidden="true">
+              <span class="iso-core"></span><span class="iso-line"></span><span class="iso-truck">→</span>
+            </div>
+            <div>
+              <p class="screen-kicker">CabFlow Delivery</p>
+              <h3>Good morning.</h3>
+              <p class="screen-copy">Your delivery work is ready.</p>
+            </div>
+            <button type="button" tabindex="-1">Start today</button>
+          </div>
+        </article>
+
+        <article class="device">
+          <div class="device-bar device-bar-light"><span>Today</span><span>08:43</span></div>
+          <div class="screen today-screen">
+            <div class="screen-title-row"><div><p class="screen-kicker">Friday's run</p><h3>5 stops</h3></div><span class="sync-pill">Synced</span></div>
+            <div class="metric-row"><div><strong>24</strong><span>Units</span></div><div><strong>5</strong><span>Stops</span></div><div><strong>1</strong><span>Run</span></div></div>
+            <div class="route-card active"><span class="route-seq">01</span><div><strong>Northfield</strong><small>8 units · Ready</small></div><span>›</span></div>
+            <div class="route-card"><span class="route-seq">02</span><div><strong>West Park</strong><small>5 units · Planned</small></div><span>›</span></div>
+            <div class="route-card"><span class="route-seq">03</span><div><strong>Riverside</strong><small>4 units · Planned</small></div><span>›</span></div>
+          </div>
+        </article>
+
+        <article class="device device-dark">
+          <div class="device-bar"><span>Load vehicle</span><span>08:51</span></div>
+          <div class="screen load-screen">
+            <div class="load-progress"><span>Loaded</span><strong>18 <small>/ 24</small></strong><div class="progress-track"><i style="width:75%"></i></div></div>
+            <div class="scan-row success"><span class="scan-icon">✓</span><div><strong>Unit 018</strong><small>Accepted · Northfield</small></div></div>
+            <div class="scan-row"><span class="scan-icon">□</span><div><strong>Unit 019</strong><small>Waiting to scan</small></div></div>
+            <div class="scan-row"><span class="scan-icon">□</span><div><strong>Unit 020</strong><small>Waiting to scan</small></div></div>
+            <button type="button" tabindex="-1">Scan next unit</button>
+          </div>
+        </article>
+
+        <article class="device">
+          <div class="device-bar device-bar-light"><span>Stop 1 of 5</span><span>10:16</span></div>
+          <div class="screen complete-screen">
+            <p class="screen-kicker">Northfield</p>
+            <h3>Delivery complete</h3>
+            <div class="complete-mark">✓</div>
+            <div class="complete-list"><span><b>8 / 8</b> units delivered</span><span><b>✓</b> signature captured</span><span><b>✓</b> recorded safely</span></div>
+            <button type="button" tabindex="-1">Next stop</button>
+          </div>
+        </article>
+      </div>
+
+      <p class="screen-caption">Illustrative reconstruction of the approved CabFlow screen language using synthetic data. The implemented driver flow includes dashboard, loading, delivery, signature and completion states, with explicit scan feedback and durable offline work.</p>
+
+      <div class="handheld-proof-grid">
+        <article><span>01</span><h3>One obvious next action</h3><p>The driver is guided through Today → Load → Run → Stop → Complete rather than navigating a miniature office system.</p></article>
+        <article><span>02</span><h3>Scanning tells you what happened</h3><p>Correct, duplicate, unknown and wrong-job scans are explicit. A driver should never need to infer whether CabFlow accepted a physical action.</p></article>
+        <article><span>03</span><h3>Offline work stays real</h3><p>Downloaded run data and operational events are retained locally, with synchronisation state kept separate from the driver's immediate task feedback.</p></article>
+        <article><span>04</span><h3>Office and field share the same product</h3><p>The handheld and standalone CabFlow management portal use the same navy, teal and light-surface design system rather than feeling like unrelated utilities.</p></article>
       </div>
     </section>
 
@@ -129,7 +200,7 @@
         <article>
           <div class="line-icon route-icon" aria-hidden="true">→</div>
           <h3>Offline-capable operations</h3>
-          <p>Delivery and local workflows are being shaped around connectivity loss, deterministic retry and visible operational state.</p>
+          <p>The handheld now keeps downloaded delivery work and operational events durable through connectivity loss, with explicit synchronisation state and acknowledged retry.</p>
         </article>
       </div>
     </section>
