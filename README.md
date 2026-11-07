@@ -1,49 +1,64 @@
-# CabFlow website
+# DMMD website
 
-Public marketing website for **CabFlow**, a standalone parametric fitted-furniture manufacturing operations product.
+Public marketing website for the product currently using the **DMMD** working visual identity.
 
-The working public descriptor is **Parametric fitted furniture manufacturing software** and the current lifecycle strapline is **Design. Manufacture. Manage. Deliver.**
+**DMMD** represents:
 
-## Source of truth
+- **Design**
+- **Manufacture**
+- **Manage**
+- **Deliver**
 
-Internal product, marketing and evidence sources are intentionally kept separate from the public brand. The public website must present CabFlow as a standalone product.
+The first D is mirrored horizontally in the production mark so the monogram forms a balanced four-letter system around the two central M characters.
+
+The public descriptor is **Fitted furniture manufacturing operations software**.
+
+## Public identity
+
+DMMD is the working visual product identity while the final commercial word-name and public domain are selected separately.
+
+The public website must not depend on any parent-company branding. The product should stand on its own.
 
 The public site must keep a clear distinction between:
 
-- implemented CabFlow components;
+- implemented product components;
 - workflows and domain behaviour proven through reference implementations;
 - planned product capability;
 - future commercial direction.
 
 Do not publish customer-specific data, internal network or architecture details, credentials, legacy weaknesses, or unverified SaaS claims.
 
-## Brand direction
+## Visual system
 
-The current working visual system uses:
+The current identity uses:
 
-- dark navy / charcoal for the CabFlow technical foundation;
-- teal and aqua for the parametric core and operational flow;
-- orange as a restrained action / delivery accent;
-- the exploded isometric cabinet and connected warehouse / delivery motif as the primary product illustration;
-- the `Cab` / `Flow` colour split in the wordmark.
+- a mirrored **D M M D** monogram;
+- deep navy / charcoal as the technical foundation;
+- teal and aqua for the master identity, action and operational connection;
+- white as the active capability highlight;
+- restrained orange only where a genuine semantic accent is useful;
+- the existing isometric cabinet-to-warehouse-to-delivery visual language.
 
-Raster crops of the approved working graphics are included in `assets/` for the current website. These remain working references until final production vector assets are prepared.
+Subsystems reuse the same monogram rather than creating unrelated product logos:
 
-## Handheld marketing evidence
+- **Design** highlights the mirrored first D;
+- **Manufacture** highlights the first M;
+- **Manage** highlights the second M;
+- **Deliver** highlights the final D.
 
-The website may now show the accepted CabFlow Delivery UX as a proven product capability. The approved Zebra build includes the branded welcome/dashboard/loading/delivery/signature/completion experience, explicit scan feedback and durable offline/synchronisation behaviour.
+## Handheld evidence
 
-Public website examples must remain synthetic or sanitised. Do not expose customer names, addresses, signatures, coordinates, device identifiers, credentials or private infrastructure.
+The website may show the accepted delivery UX as a proven capability. The approved Zebra build includes the branded welcome/dashboard/loading/delivery/signature/completion experience, explicit scan feedback and durable offline/synchronisation behaviour.
 
-The wider CabFlow SaaS and customer-specific commissioning boundaries remain separate claims. Do not turn accepted handheld UX into a claim that all CabFlow SaaS, live tracking, infrastructure migration or every customer rollout is complete.
+Public examples must remain synthetic or sanitised. Do not expose customer names, addresses, signatures, coordinates, device identifiers, credentials or private infrastructure.
 
 ## Website status
 
-This repository is the public CabFlow website workbench. It is not currently tied to a CabFlow production domain.
+This repository remains the current website workbench while the final commercial brand name and domain are being selected.
 
 ## Development
 
-The site is deliberately dependency-free static HTML and CSS that can be served locally or through GitHub Pages.
+The site is dependency-free static HTML and CSS.
 
 ```bash
 python3 -m http.server 8000
