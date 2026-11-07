@@ -224,3 +224,175 @@ footer a:not(.wordmark) { text-underline-offset: .2rem; }
   .handheld-proof-grid article, .handheld-proof-grid article + article { min-height: 0; padding: 1.6rem 0; border-left: 0; border-top: 1px solid var(--line); }
   .handheld-proof-grid article:first-child { border-top: 0; }
 }
+
+
+/* DMMD product identity */
+.dmmd-mark {
+  display: inline-flex;
+  align-items: center;
+  gap: .015em;
+  font-weight: 700;
+  line-height: .88;
+  letter-spacing: -.08em;
+  text-decoration: none;
+  color: var(--teal);
+}
+
+.dmmd-letter {
+  display: inline-block;
+  min-width: .72em;
+}
+
+.dmmd-d-reverse {
+  transform: scaleX(-1);
+  transform-origin: center;
+}
+
+.dmmd-mark-header {
+  font-size: 2rem;
+  color: var(--navy);
+}
+
+.dmmd-mark-header .dmmd-letter:first-child,
+.dmmd-mark-header .dmmd-letter:last-child {
+  color: var(--teal);
+}
+
+.hero-mark {
+  display: flex;
+  align-items: center;
+  gap: .01em;
+  margin: 0 0 1rem;
+  color: var(--teal);
+  font-size: clamp(5rem, 10vw, 9rem);
+  font-weight: 700;
+  line-height: .82;
+  letter-spacing: -.09em;
+}
+
+.hero-mark .dmmd-letter:nth-child(2),
+.hero-mark .dmmd-letter:nth-child(3) {
+  color: var(--navy);
+}
+
+.lifecycle-line {
+  margin: 0 0 2rem;
+  color: var(--ink-soft);
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
+  font-weight: 600;
+  letter-spacing: -.025em;
+}
+
+.lifecycle-line span:nth-child(1),
+.lifecycle-line span:nth-child(4) { color: var(--teal-deep); }
+
+.identity-section { padding: 7rem 0; border-bottom: 1px solid var(--line); }
+
+.variant-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.variant-card {
+  min-height: 330px;
+  padding: 2rem;
+  background: var(--navy);
+  color: white;
+  border: 1px solid rgba(255,255,255,.08);
+}
+
+.variant-mark {
+  margin-bottom: 3.8rem;
+  font-size: clamp(2.6rem, 5vw, 4.3rem);
+  color: var(--teal);
+}
+
+.variant-mark .dmmd-letter { color: var(--teal); }
+.variant-mark .active-letter { color: white !important; }
+
+.variant-card .card-kicker { color: var(--aqua); }
+.variant-card h3 {
+  margin: .65rem 0 0;
+  color: white;
+  font-size: 1.7rem;
+  line-height: 1.08;
+  letter-spacing: -.03em;
+}
+
+.variant-card p {
+  margin: 1rem 0 0;
+  color: rgba(255,255,255,.62);
+}
+
+.mini-dmmd {
+  display: inline-flex;
+  align-items: center;
+  gap: .02em;
+  color: var(--teal);
+  font-size: .78rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -.08em;
+}
+
+.mini-dmmd .active-letter { color: white; }
+
+.dmmd-lockup-panel {
+  text-align: center;
+}
+
+.dmmd-mark-large {
+  font-size: clamp(4rem, 8vw, 8rem);
+  color: var(--aqua);
+}
+
+.dmmd-mark-large .dmmd-letter:nth-child(2),
+.dmmd-mark-large .dmmd-letter:nth-child(3) {
+  color: white;
+}
+
+.lockup-line {
+  margin: 1.35rem 0 0;
+  color: rgba(255,255,255,.72);
+  font-size: clamp(.85rem, 1.4vw, 1.15rem);
+  font-weight: 600;
+  letter-spacing: .02em;
+}
+
+.footer-dmmd {
+  font-size: 1.55rem;
+  color: var(--navy);
+}
+
+.footer-dmmd .dmmd-letter:first-child,
+.footer-dmmd .dmmd-letter:last-child {
+  color: var(--teal);
+}
+
+.lifecycle-design .step,
+.lifecycle-design h2,
+.lifecycle-manufacture .step,
+.lifecycle-manufacture h2,
+.lifecycle-manage .step,
+.lifecycle-manage h2 {
+  color: var(--aqua);
+}
+
+.lifecycle-deliver .step,
+.lifecycle-deliver h2 {
+  color: white;
+}
+
+@media (max-width: 1050px) {
+  .variant-grid { grid-template-columns: 1fr; }
+  .variant-card { min-height: 0; }
+  .variant-mark { margin-bottom: 2.4rem; }
+}
+
+@media (max-width: 700px) {
+  .identity-section { padding: 5rem 0; }
+  .dmmd-mark-header { font-size: 1.65rem; }
+  .hero-mark { font-size: clamp(4.2rem, 22vw, 6.5rem); }
+  .variant-card { padding: 1.6rem; }
+}
