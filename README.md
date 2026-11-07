@@ -1,12 +1,12 @@
 # CabFlow website
 
-Public marketing website for **CabFlow**, Digital Unity's parametric fitted-furniture manufacturing operations product.
+Public marketing website for **CabFlow**, a standalone parametric fitted-furniture manufacturing operations product.
 
 The working public descriptor is **Parametric fitted furniture manufacturing software** and the current lifecycle strapline is **Design. Manufacture. Manage. Deliver.**
 
 ## Source of truth
 
-The internal marketing and commercial working brief lives in the CabFlow Confluence space under **01 - Marketing & Website**. The working visual identity is recorded on the **Brand Graphics** page in the same area.
+Internal product, marketing and evidence sources are intentionally kept separate from the public brand. The public website must present CabFlow as a standalone product.
 
 The public site must keep a clear distinction between:
 
