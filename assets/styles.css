@@ -174,3 +174,30 @@ footer p{margin:0}
   footer{grid-template-columns:1fr;padding:2.5rem 0;gap:.65rem}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.hero-dmmd-mark{
+  margin:.15rem 0 1.15rem;
+  width:max-content;
+  font-size:clamp(5.6rem,10vw,10.5rem);
+  color:var(--green);
+  text-shadow:0 0 28px rgba(0,199,163,.12);
+}
+.hero-dmmd-mark .dmmd-letter:nth-child(2),
+.hero-dmmd-mark .dmmd-letter:nth-child(3){color:var(--white)}
+.hero-dmmd-mark .dmmd-letter:last-child{color:#57e3ce}
+.hero-lifecycle-line{
+  margin:0 0 1.2rem;
+  display:flex;
+  flex-wrap:wrap;
+  gap:.35rem .55rem;
+  color:rgba(255,255,255,.94);
+  font-size:clamp(1.15rem,1.8vw,1.6rem);
+  font-weight:700;
+  letter-spacing:-.025em;
+}
+.hero-lifecycle-line .deliver-word{color:var(--green)}
+.hero-product-line{
+  max-width:760px;
+  font-size:clamp(3rem,5vw,5.6rem)!important;
+  line-height:1!important;
+}
