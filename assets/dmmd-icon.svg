@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="DMMD">
+  <rect width="512" height="512" rx="96" fill="#0B2F2E"/>
+  <g font-family="Inter,Arial,sans-serif" font-size="138" font-weight="800" fill="#00C7A3">
+    <g transform="translate(122 0) scale(-1 1)"><text x="0" y="330">D</text></g>
+    <text x="126" y="330" fill="#00C7A3">M</text>
+    <text x="246" y="330" fill="#FFFFFF">M</text>
+    <text x="374" y="330" fill="#57E3CE">D</text>
+  </g>
+</svg>
